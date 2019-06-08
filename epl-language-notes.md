@@ -1,19 +1,15 @@
-OVERVIEW
+概述
 -----------
 
-	The ElasticPL programming language allows Elastic job authors to express
-	complex algorithms to be solved for bounties.
+	Elasticpl编程语言允许Elastic的工作者以发布赏金的形式用复杂的算法去解决问题。
 	
-	The language is loosely based on the C programming language incorporating
-	many of the basic operators / functions.
+	该语言基於C程式设计语言包括许多基本的运算和子/函数。
 	
-	There are no FOR, WHILE, or DO loops in ElasticPL in order to ensure that
-	programs will not run indefinitely.  Instead, job authors will use the 
-	ElasticPL REPEAT function.
+	Elasticpl中没有for丶while或do循环指令，以确保程式不会无限期运行。相反，工作者可使用Elasticpl中的重复功能。
 	
-	Job authors will be responsible for defining specific verification logic
-	that is below a certain WCET to ensure the Bounty and POW solutions
-	submitted by miners can be validated by all nodes on a distributed network.
+	工作者将负责定义特定的验证逻辑.
+	这验证时段将低於一定的最差情况执行时间
+	矿工提交的数据可以由分布式网络上的所有节点进行验证。
 
 	
 PROGRAM LAYOUT
