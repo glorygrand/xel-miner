@@ -12,15 +12,14 @@
 	矿工提交的数据可以由分布式网络上的所有节点进行验证。
 
 	
-PROGRAM LAYOUT
+程式佈局
 --------------
-
-	An ElasticPL program consists of:
-		- 1 or more Global Variable arrays
-		- Storage declarations (Optional)
-		- "main" Function
-		- "verify" Function
-		- User-Defined Functions (Optional)
+      Elasticpl程式包括：
+		- 1个或多个全局变量数组
+		- -存储声明  (可选性)
+		- "main" 功能
+		- "verify" 功能
+		- 用戶定義函數  (可选性)
 
 		
 GLOBAL VARIABLES
