@@ -22,12 +22,12 @@
 		- 用戶定義函數  (可选性)
 
 		
-GLOBAL VARIABLES
+全局变量 
 ----------------
 
-	The ElasticPL VM performs all storage using Global Variables based on the
-	standard 32bit and 64bit data types (int32_t, uint32_t, int64_t, uint64_t,
-	float, double). Local storage is not supported.
+	Elasticpl虚拟机使用基于标准32位和64位的数据类型 (int32_t, uint32_t, int64_t, uint64_t,
+	float, double). 不支持本地存储。.
+	
 	
 	Named variables are not allowed, instead data is stored in an array which
 	represents the data type.  The arrays are declared as follows:
